@@ -1,0 +1,33 @@
+	This is the credits file of people that have contributed to the
+	PyTalker project. It is sorted by name and formatted to allow easy
+	grepping and beautification by scripts. The fields are: real name (R),
+	nickname (N), email (E), web-address (W) and description (D).
+	
+	Thanks,
+
+			The PyTalker developers team
+----------
+
+R: Marcos Marado Torres
+N: Mind Booster Noori
+E: marcos.marado@sonae.com
+W: http://mindboosternoori.blogspot.com
+D: Project Administrator, Coder, Documentation, WebSite, Mailing Lists
+
+R: Daniel Alexandre
+N: FX
+E: dfcruz@student.dei.uc.pt
+W: http://student.dei.uc.pt/~dfcruz
+D: Coder
+
+R: José Martins
+N: Hellraiser
+E: josenunesmartins@gmail.com
+W: http://student.dei.uc.pt/~jemart
+D: Code Reviewer, Coder
+
+R: Rich Daley
+N: OwlOfDoom
+E: owlofdoom@users.sourceforge.net
+W: http://www.owlsound.co.uk/me/
+D: python-talk Project Creator

@@ -1,0 +1,38 @@
+     What follows is a suggested procedure for reporting PyTalker bugs. You
+aren't obliged to use the bug reporting format, it is provided as a guide
+to the kind of information that can be useful to developers - no more.
+
+     If the failure includes a Python Traceback type message in your log or on
+screen please post it on your bug report. 
+
+     Please include in your report which Operating System are you using, which
+version of it, and the output of python -v.
+
+	Send the bug report to the maintainer of the area that seems to be 
+involved with the problem. Don't worry too much about getting the wrong person.
+If you are unsure send it to the person responsible for the code relevant to
+what you were doing. If it occurs repeatably try and describe how to recreate
+it. That is worth even more than the traceback itself.
+
+The list of maintainers is in the MAINTAINERS file in this directory.
+
+      This is a suggested format for a bug report sent to PyTalker maintainers.
+Having a standardized bug report form makes it easier for you not to overlook
+things, and easier for the developers to find the pieces of information they're
+really interested in. Don't feel you have to follow it.
+
+      Fill in all fields of the bug report form, and post it to the maintainer
+a subject of "PyTalker PROBLEM: <one line summary from [1.]>" for easy
+identification by the maintainer   
+
+[1.] One line summary of the problem
+[2.] Full description of the problem/report
+[3.] python -v output
+[4.] Operating System version
+[5.] Python traceback (if applicable)
+[6.] A small shell script or example program which triggers the problem (if
+     possible)
+[X.] Other notes, patches, fixes, workarounds
+
+
+Thank you

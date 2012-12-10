@@ -1,0 +1,61 @@
+This is the roadmap for the development of PyTalker.
+This file is extremely outdated. An updated version is on our develepment
+setup, feel free to ask privileges to see it.
+
+Versioning:
+PyTalker uses a triplet of numbers for it's versioning. In a version vZ.Y.X, it
+means:
+
+    * Z - Major version
+    * Y - Middle version
+    * X - Minor version
+
+Z will show a full funcionality version of PyTalker;
+Y indicates a step further in Z version of PyTalker;
+X indicates minor changes: bug/security fixes and stuff like that.
+
+RoadMap:
+For now PyTalker is on it's version v0.Y.X. This roadmap indicates what we
+pretend to do until v1.0.0 is reached.
+
+v0.3.X
+
+In this version we intend to implement simple talker functions...
+
+	v0.2.0 - ranks
+	v0.2.1 - rooms
+	v0.2.2 - prompt
+	v0.2.3 - command abbreviation
+	v0.2.4 - usename abbreviation
+	v0.2.5 - .review
+
+v0.4.X
+
+The grand concept behind this version is the implementation of the
+talker base as a 3-tier system. This will imply a division of PyTalker in 3
+(inicially) projects: PyTalker (the talker base itself), The Talker Protocol (a
+definition of a protocol to get a standard used in Talkers, and that will
+define the messages swapped between the 1st and 2nd tiers) and TelTalker (a
+Telnet interface for talkers).
+
+v0.5.X
+
+Mamnuts-like functionalities.
+
+v0.6.X
+
+EUTS-like functionalities.
+
+v0.7.X
+
+I/O choice: files or database.
+
+v0.8.X
+
+Configuration tools: text-based; ncurses; gui; web-based.
+
+v1.0.0
+
+All requisits (*) must be fulfilled for this version to come out. 
+
+*) http://www.electricwords.org/words/articles/towards_talker_standards

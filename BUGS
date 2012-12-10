@@ -1,0 +1,7 @@
+Trying to promote an admin gives a weird error message:
+
+.rank -s +1
+No rank with that name
+.rank -s mindboosternoori +
+No rank with that name
+

@@ -1,0 +1,130 @@
+PyTalker is quite quite dead. This isn't even PyTalker's latest version, or a
+version at all, this is a development snapshot of what almost came to be
+PyTalker 0.3.0 (but never really did anyway). 
+
+So, I'm just uploading this because:
+1) This is the only version of PyTalker I've found on my old backups;
+2) Daniel (see MAINTAINERS file) asked me for a backup of this, for old times'
+   sake;
+3) History :-P
+
+The PyTalker ended, and we've pointed out a replacement at the time: please read
+http://mamnuts.blogspot.com/2010/10/mamnuts-and-pytalker-are-dead-long-live.html
+
+===============================================================================
+
+	PyTalker
+
+These are the release notes for PyTalker. Read them carefully, as they tell you
+what this is all about, explain how to make your own talker using PyTalker, and
+what to do if something goes wrong.
+
+WHAT IS PyTalker?
+
+  PyTalker is a NUTS-like talker base, written in Python, made by Daniel
+  Alexandre with assistance from Mind Booster Noori and Hellraiser. More info
+  about the developers team in the MAINTAINERS file.
+
+  It aims to have all the features you would expect in a modern fully-fledged
+  talker base, including accentuated characters, colors, SSL connections,
+  configuration tools, database I/O, rooms, levels, stuff like that.
+
+  It is distributed under the GNU General Public License - see the accompanying
+  COPYING file for more details. 
+
+WHAT IS A NUTS-like TALKER BASE?
+
+  A NUTS-like talker base is a talker base that has an enviorement like NUTS,
+  the most commonly used talker base.
+
+WHAT IS A TALKER BASE?
+
+  A Talker is a program. Although you can build a complete talker from scratch,
+  there are some base programs (Talker bases) you can use to build a Talker. It
+  much simpler and coder friendly (if that even exists...) to modify a Talker
+  base into a real Talker. All you need to do is to add some commands an to
+  give a new look. At least on most of the Talker bases.
+
+  The fact of a Talker is built on one or another base doesn't affect much the
+  user. The interface may change, but the user rarely has a perception of the
+  core of the Talker. Experienced users may see it but for the common user this
+  doesn't mean much.
+  There are many bases for a Talker and that is the choice of the Talker coder.
+  They choose this or another because they like the implementation or because
+  they are in a given community that uses that base. That was what happened to
+  me. This way, I can discuss bugs within this community and/or new
+  implementations. 
+
+WHAT IS A TALKER?
+
+  The best and last up-to-date definition of a talker can be read in
+  http://en.wikipedia.org/wiki/Talker . 
+
+ON WHAT SOFTWARE AND HARDWARE DOES IT RUN?
+
+  Since PyTalker is fully written in Python, it will work in any Operating
+  System that supports Python and in any hardware that has the ability of
+  running it. We have reports of full functionality in GNU/Linux and MAC OS X
+  Operating Systems, and machines with processors with 400 Mhz or above. More
+  info on Python support in http://www.python.org .
+
+DOCUMENTATION:
+
+ - There is the documentation that comes with the latest version on PyTalker.
+   You can also find some info in our webpage, at
+   http://talkerspt.no-ip.org/~pytalker . It may not have many documentation
+   for now, but we intend to extend the documentation present there as much as
+   possible.
+
+ - Reading the documentation is highly recomended.
+
+
+INSTALLING PyTalker:
+
+ - If you install the full sources, put the PyTalker tarball in a
+   directory where you have permissions (eg. your home directory) and
+   unpack it:
+
+		gzip -cd PyTalker-z.y.x.tgz | tar xvf -
+
+   Replace "z", "y" and "x" with the version number of the latest PyTalker.
+
+
+SOFTWARE REQUIREMENTS
+
+   Running the latest PyTalker requires only an up-to-date version of Python.
+   We know it works with Python 2.3 #1 and above, but we don't know if it works
+   with lower versions of Python.
+   To get the latest Python version visit http://www.python.org .
+
+BUILD A TALKER USING PyTalker:
+
+   Go to PyTalker source directory and configure it (see section above).
+   Run PyTalker using 
+   	./pytalker-background.py 
+
+CONFIGURING PyTalker:
+
+   Do not skip this step even if you are only upgrading one minor
+   version.  New configuration options are added in each release, and
+   odd problems will turn up if the configuration files are not set up
+   as expected.  
+
+   Edit the files in the 'config' directory and set each variable to suit your
+   own talker.
+
+IF SOMETHING GOES WRONG:
+
+ - If you have problems that seem to be due to PyTalker bugs, please check
+   the file MAINTAINERS and mail them.
+
+ - In all bug-reports, *please* tell what PyTalker version you are talking
+   about, how to replicate the problem, and what your setup is (use your common
+   sense). If the problem is new, tell so, and if the problem is old, please
+   try to tell when you first noticed it.
+
+ - If the bug results in a Python traceback on your screen or in your
+   system log, please duplicate it *exactly*.  The dump may look
+   incomprehensible to you, but it does contain information that may
+   help debugging the problem. The text above the dump is also
+   important: it tells something about why PyTalker dumped code.

@@ -1,0 +1,9 @@
+0.3.0
+* Now
+[ ] Build a status file for user
+[ ] Ranks
+[ ] Rooms
+
+* Next
+[ ] Strip non-printable characters
+[ ] Read the password transparently
